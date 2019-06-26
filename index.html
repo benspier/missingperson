@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+</head>
+
+<body>
+    <form>
+        <select>
+            <option>Pancakes</option>
+            <option>Pudding</option>
+            <option>Ice cream</option>
+        </select>
+    </form>
+
+    <p class="desserts"></p>
+
+
+    <script>
+        document.querySelector("form").addEventListener("change", function (event) {
+            document.createTextNode("desserts");
+        })
+    </script>
+</body>
+
+</html>
